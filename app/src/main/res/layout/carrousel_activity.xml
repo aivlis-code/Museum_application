@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".carrousel_activity">
+
+        <TextView
+            android:id="@+id/presentation_oeuvres"
+            style="@style/Museum_app_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Présentation des oeuvres"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textIsSelectable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tableau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:text="Tableau"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <HorizontalScrollView
+            android:id="@+id/tableau_horizontalscroll"
+            android:layout_width="409dp"
+            android:layout_height="206dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableau">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageButton
+                    android:id="@+id/tableau2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/tableau2" />
+
+                <ImageButton
+                    android:id="@+id/tableau1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/tableau2"
+                    app:layout_constraintTop_toTopOf="@+id/tableau2"
+                    app:srcCompat="@drawable/tableau1" />
+
+                <ImageButton
+                    android:id="@+id/tableau3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/tableau1"
+                    app:layout_constraintTop_toTopOf="@+id/tableau1"
+                    app:srcCompat="@drawable/tableau3" />
+
+                <ImageButton
+                    android:id="@+id/tableau4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/tableau3"
+                    app:layout_constraintTop_toTopOf="@+id/tableau3"
+                    app:srcCompat="@drawable/tableau4" />
+
+                <ImageButton
+                    android:id="@+id/tableau5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/tableau4"
+                    app:layout_constraintTop_toTopOf="@+id/tableau4"
+                    app:srcCompat="@drawable/tableau5" />
+
+                <ImageButton
+                    android:id="@+id/tableau6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/tableau5"
+                    app:layout_constraintTop_toTopOf="@+id/tableau5"
+                    app:srcCompat="@drawable/tableau6" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/statue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif"
+            android:text="Statue"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tableau"
+            app:layout_constraintTop_toBottomOf="@+id/tableau_horizontalscroll" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/statue_horizontalscroll"
+            android:layout_width="409dp"
+            android:layout_height="206dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statue">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageButton
+                    android:id="@+id/statue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/statue1" />
+
+                <ImageButton
+                    android:id="@+id/statue2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/statue1"
+                    app:layout_constraintTop_toTopOf="@+id/statue1"
+                    app:srcCompat="@drawable/statue2" />
+
+                <ImageButton
+                    android:id="@+id/statue3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/statue2"
+                    app:layout_constraintTop_toTopOf="@+id/statue2"
+                    app:srcCompat="@drawable/statue3" />
+
+                <ImageButton
+                    android:id="@+id/statue4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/statue3"
+                    app:layout_constraintTop_toTopOf="@+id/statue3"
+                    app:srcCompat="@drawable/statue4" />
+
+                <ImageButton
+                    android:id="@+id/statue5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/statue4"
+                    app:layout_constraintTop_toTopOf="@+id/statue4"
+                    app:srcCompat="@drawable/statue5" />
+
+                <ImageButton
+                    android:id="@+id/statue6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:onClick="handleSelection"
+                    app:layout_constraintStart_toEndOf="@+id/statue5"
+                    app:layout_constraintTop_toTopOf="@+id/statue5"
+                    app:srcCompat="@drawable/statue6" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -43,7 +43,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox1"
@@ -51,7 +51,10 @@
                     android:layout_height="wrap_content"
                     android:layout_alignTop="@id/OrsayButton1"
                     android:layout_alignRight="@id/OrsayButton1"
-                    android:layout_margin="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
                     android:visibility="visible" />
 
             </RelativeLayout>
@@ -68,7 +71,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox2"
@@ -93,7 +96,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox3"
@@ -118,7 +121,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox4"
@@ -143,7 +146,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox5"
@@ -168,7 +171,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox6"
@@ -193,7 +196,7 @@
                     android:layout_height="175dp"
                     android:contentDescription="Musée d'Orsay"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/museum_orsay" />
+                    android:src="@drawable/louvre_login" />
 
                 <CheckBox
                     android:id="@+id/checkBox7"
