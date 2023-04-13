@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imagebackground"
-        app:srcCompat="@drawable/Museum_Logo"
+        app:srcCompat="@drawable/museum_logo"
         android:contentDescription="@string/logo_a_muse_fail" />
 
     <Button

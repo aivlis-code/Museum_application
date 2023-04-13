@@ -53,16 +53,50 @@
 
                 <ImageButton
                     android:id="@+id/tableau2"
+                    android:contentDescription="tableau2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="5dp"
                     android:onClick="handleSelection"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/tableau2" />
+                    app:srcCompat="@drawable/tableau2"/>
+
+                <ImageButton
+                    android:id="@+id/dislike_tableau2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:contentDescription="dislike_tableau2"
+                    android:onClick="handleSelection"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_tableau2"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Les Noces de Cana"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau2"
+                    app:layout_constraintLeft_toLeftOf="@id/tableau2"
+                    app:layout_constraintStart_toStartOf="@+id/tableau2" />
 
                 <ImageButton
                     android:id="@+id/tableau1"
+                    android:contentDescription="tableau1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="5dp"
@@ -70,6 +104,38 @@
                     app:layout_constraintStart_toEndOf="@+id/tableau2"
                     app:layout_constraintTop_toTopOf="@+id/tableau2"
                     app:srcCompat="@drawable/tableau1" />
+
+                <ImageButton
+                    android:id="@+id/dislike_tableau1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_tableau1"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_tableau1"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="La Joconde"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau1"
+                    app:layout_constraintLeft_toLeftOf="@id/tableau1"
+                    app:layout_constraintStart_toStartOf="@+id/tableau1" />
 
                 <ImageButton
                     android:id="@+id/tableau3"
@@ -82,6 +148,38 @@
                     app:srcCompat="@drawable/tableau3" />
 
                 <ImageButton
+                    android:id="@+id/dislike_tableau3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_tableau3"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_tableau3"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Le Radeau de la Méduse"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau3"
+                    app:layout_constraintLeft_toLeftOf="@id/tableau3"
+                    app:layout_constraintStart_toStartOf="@+id/tableau3" />
+
+                <ImageButton
                     android:id="@+id/tableau4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -90,6 +188,38 @@
                     app:layout_constraintStart_toEndOf="@+id/tableau3"
                     app:layout_constraintTop_toTopOf="@+id/tableau3"
                     app:srcCompat="@drawable/tableau4" />
+
+                <ImageButton
+                    android:id="@+id/dislike_tableau4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_tableau4"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau4"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_tableau4"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Sacre de Napoléon 1er"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau4"
+                    app:layout_constraintLeft_toLeftOf="@id/tableau4"
+                    app:layout_constraintStart_toStartOf="@+id/tableau4" />
 
                 <ImageButton
                     android:id="@+id/tableau5"
@@ -102,6 +232,38 @@
                     app:srcCompat="@drawable/tableau5" />
 
                 <ImageButton
+                    android:id="@+id/dislike_tableau5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_tableau5"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_tableau5"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="La Liberté guidant le peuple"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau5"
+                    app:layout_constraintLeft_toLeftOf="@id/tableau5"
+                    app:layout_constraintStart_toStartOf="@+id/tableau5" />
+
+                <ImageButton
                     android:id="@+id/tableau6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -110,6 +272,38 @@
                     app:layout_constraintStart_toEndOf="@+id/tableau5"
                     app:layout_constraintTop_toTopOf="@+id/tableau5"
                     app:srcCompat="@drawable/tableau6" />
+
+                <ImageButton
+                    android:id="@+id/dislike_tableau6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_tableau6"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau6"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_tableau6"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Portrait de Louis XIV en costume de sacre"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/tableau6"
+                    app:layout_constraintLeft_toLeftOf="@id/tableau6"
+                    app:layout_constraintStart_toStartOf="@+id/tableau6" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
@@ -149,13 +343,47 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="5dp"
+                    android:contentDescription="statue1"
                     android:onClick="handleSelection"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/statue1" />
 
                 <ImageButton
+                    android:id="@+id/dislike_statue1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:contentDescription="dislike_statue1"
+                    android:onClick="handleSelection"
+                    app:layout_constraintEnd_toEndOf="@+id/statue1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_statue1"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Niké"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/statue1"
+                    app:layout_constraintLeft_toLeftOf="@id/statue1"
+                    app:layout_constraintStart_toStartOf="@+id/statue1" />
+
+                <ImageButton
                     android:id="@+id/statue2"
+                    android:contentDescription="statue2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="5dp"
@@ -163,6 +391,39 @@
                     app:layout_constraintStart_toEndOf="@+id/statue1"
                     app:layout_constraintTop_toTopOf="@+id/statue1"
                     app:srcCompat="@drawable/statue2" />
+
+                <ImageButton
+                    android:id="@+id/dislike_statue2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:contentDescription="dislike_statue2"
+                    android:onClick="handleSelection"
+                    app:layout_constraintEnd_toEndOf="@+id/statue2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+
+                <TextView
+                    android:id="@+id/text_statue2"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Hermaphrodite endormi"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/statue2"
+                    app:layout_constraintLeft_toLeftOf="@id/statue2"
+                    app:layout_constraintStart_toStartOf="@+id/statue2" />
 
                 <ImageButton
                     android:id="@+id/statue3"
@@ -175,6 +436,38 @@
                     app:srcCompat="@drawable/statue3" />
 
                 <ImageButton
+                    android:id="@+id/dislike_statue3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_statue3"
+                    app:layout_constraintEnd_toEndOf="@+id/statue3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_statue3"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Vénus de Milo"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/statue3"
+                    app:layout_constraintLeft_toLeftOf="@id/statue3"
+                    app:layout_constraintStart_toStartOf="@+id/statue3" />
+
+                <ImageButton
                     android:id="@+id/statue4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -183,6 +476,39 @@
                     app:layout_constraintStart_toEndOf="@+id/statue3"
                     app:layout_constraintTop_toTopOf="@+id/statue3"
                     app:srcCompat="@drawable/statue4" />
+
+                <ImageButton
+                    android:id="@+id/dislike_statue4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_statue4"
+                    app:layout_constraintEnd_toEndOf="@+id/statue4"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_statue4"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Lamassus du palais de Khorsabad"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="5sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/statue4"
+                    app:layout_constraintLeft_toLeftOf="@id/statue4"
+                    app:layout_constraintStart_toStartOf="@+id/statue4" />
+
 
                 <ImageButton
                     android:id="@+id/statue5"
@@ -195,6 +521,39 @@
                     app:srcCompat="@drawable/statue5" />
 
                 <ImageButton
+                    android:id="@+id/dislike_statue5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_statue5"
+                    app:layout_constraintEnd_toEndOf="@+id/statue5"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_statue5"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Le Scribe accroupi"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/statue5"
+                    app:layout_constraintLeft_toLeftOf="@id/statue5"
+                    app:layout_constraintStart_toStartOf="@+id/statue5" />
+
+
+                <ImageButton
                     android:id="@+id/statue6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -203,6 +562,38 @@
                     app:layout_constraintStart_toEndOf="@+id/statue5"
                     app:layout_constraintTop_toTopOf="@+id/statue5"
                     app:srcCompat="@drawable/statue6" />
+
+                <ImageButton
+                    android:id="@+id/dislike_statue6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@null"
+                    android:onClick="handleSelection"
+                    android:contentDescription="dislike_statue6"
+                    app:layout_constraintEnd_toEndOf="@+id/statue6"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dislike" />
+
+                <TextView
+                    android:id="@+id/text_statue6"
+                    android:layout_width="184dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DA042B76"
+                    android:padding="5dp"
+                    android:text="Grand sphinx de Tanis"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/statue6"
+                    app:layout_constraintLeft_toLeftOf="@id/statue6"
+                    app:layout_constraintStart_toStartOf="@+id/statue6" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </HorizontalScrollView>
